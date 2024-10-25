@@ -1,0 +1,162 @@
+{
+    "store": {
+      "name": "Tienda de Tecnología",
+      "location": {
+        "address": "123 Calle Principal",
+        "city": "Madrid",
+        "country": "España",
+        "postalCode": "28001"
+      },
+      "categories": [
+        {
+          "id": 1,
+          "name": "Electrónica",
+          "products": [
+            {
+              "id": 101,
+              "name": "Smartphone X10",
+              "brand": "MarcaXYZ",
+              "price": 599.99,
+              "currency": "EUR",
+              "stock": 120,
+              "ratings": [
+                {
+                  "userId": 1,
+                  "rating": 5,
+                  "comment": "Excelente producto!"
+                },
+                {
+                  "userId": 2,
+                  "rating": 4,
+                  "comment": "Buena relación calidad-precio"
+                }
+              ]
+            },
+            {
+              "id": 102,
+              "name": "Portátil Y15",
+              "brand": "MarcaABC",
+              "price": 999.95,
+              "currency": "EUR",
+              "stock": 80,
+              "ratings": [
+                {
+                  "userId": 3,
+                  "rating": 4,
+                  "comment": "Muy buen rendimiento."
+                },
+                {
+                  "userId": 1,
+                  "rating": 3,
+                  "comment": "Esperaba más por este precio."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Accesorios",
+          "products": [
+            {
+              "id": 201,
+              "name": "Cargador Rápido 20W",
+              "brand": "MarcaXYZ",
+              "price": 19.99,
+              "currency": "EUR",
+              "stock": 250,
+              "ratings": [
+                {
+                  "userId": 2,
+                  "rating": 5,
+                  "comment": "Carga súper rápido."
+                }
+              ]
+            },
+            {
+              "id": 202,
+              "name": "Auriculares Bluetooth",
+              "brand": "MarcaABC",
+              "price": 49.99,
+              "currency": "EUR",
+              "stock": 150,
+              "ratings": [
+                {
+                  "userId": 3,
+                  "rating": 4,
+                  "comment": "Buen sonido, pero algo caros."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "users": [
+      {
+        "id": 1,
+        "name": "Juan Pérez",
+        "email": "juan.perez@example.com",
+        "phone": "+34 600 123 456",
+        "shippingAddress": {
+          "address": "456 Calle Secundaria",
+          "city": "Madrid",
+          "country": "España",
+          "postalCode": "28002"
+        },
+        "orderHistory": [
+          {
+            "orderId": 1001,
+            "date": "2024-09-15",
+            "total": 1649.94,
+            "items": [
+              {
+                "productId": 101,
+                "quantity": 1,
+                "price": 599.99
+              },
+              {
+                "productId": 102,
+                "quantity": 1,
+                "price": 999.95
+              }
+            ],
+            "status": "Delivered"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Ana López",
+        "email": "ana.lopez@example.com",
+        "phone": "+34 600 789 012",
+        "shippingAddress": {
+          "address": "789 Calle Tercera",
+          "city": "Barcelona",
+          "country": "España",
+          "postalCode": "08001"
+        },
+        "orderHistory": [
+          {
+            "orderId": 1002,
+            "date": "2024-09-20",
+            "total": 69.98,
+            "items": [
+              {
+                "productId": 201,
+                "quantity": 1,
+                "price": 19.99
+              },
+              {
+                "productId": 202,
+                "quantity": 1,
+                "price": 49.99
+              }
+            ],
+            "status": "Shipped"
+          }
+        ]
+      }
+    ]
+  }
+  
